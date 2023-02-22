@@ -1,0 +1,64 @@
+/* Estilos globais */
+body {
+  font-family: 'Open Sans', sans-serif;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 1em;
+}
+
+h1 {
+  text-align: center;
+}
+
+/* Estilos do formulário */
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-top: 0.5em;
+}
+
+input {
+  padding: 0.5em;
+  margin-top: 0.5em;
+  border: none;
+  border-bottom: 2px solid #ddd;
+  font-size: 1em;
+  color: #333;
+  transition: border-color 0.3s ease;
+}
+
+input:focus {
+  border-color: #007bff;
+}
+
+button {
+  margin-top: 1em;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 0.5em;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0062cc;
+}
+
+.dark-mode {
+  background-color: #222;
+  color: #fff;
+}
+
+/* Estilos da mensagem de sucesso */
+.success-message {
+  margin-top: 1em;
+  padding: 0.5em;
+  background-color: #d4edda;
+  border: 1px solid #c3e6cb;
+  color: #155724;
+}
